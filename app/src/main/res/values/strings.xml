@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Course Feedback System</string>
+    <string name="appbar_title">Course Feedback Survey</string>
+    <string name="refresh_text">Please connect to the GSU wifi to access the course feedback survey.</string>
+    <string name="terms_text">In order to access the GSU course feedback survey, you must connect to the GSU wifi.</string>
+    <string name="poor">Poor</string>
+    <string name="fair">Fair</string>
+    <string name="good">Good</string>
+    <string name="very_good">Very Good</string>
+    <string name="excellent">Excellent</string>
+    <string name="next"><![CDATA[Next >>]]></string>
+    <string name="grading">To what scale do you think the quality/timeliness of the grading of the assignments?</string>
+    <string name="very_slow">Very Slow</string>
+    <string name="slow">Slow</string>
+    <string name="normal">Normal</string>
+    <string name="fast">Fast</string>
+    <string name="very_fast">Very Fast</string>
+    <string name="overall_pace">To what scale do you think the overall pace of the course session is?</string>
+    <string name="overall_quality">To what scale do you think the overall quality of the course is so far?</string>
+    <string name="select_course">Please Select Your Course</string>
+    <string-array name="course_array">
+        <item>CSC1301 Principles of Computer Sci I</item>
+        <item>CSC1302 Principles of Computer Sci II</item>
+        <item>CSC2510 Theor Foundations of Comp Sci</item>
+        <item>CSC2720 Data Structures</item>
+        <item>CSC3210 Computer Org and Programming</item>
+        <item>CSC3320 System-Level Programming</item>
+        <item>CSC4370 Web Programming</item>
+        <item>CSC4710 Database Systems</item>
+        <item>CSC4850 Machine Learning</item>
+        <item>CSC6370 Web Programming</item>
+        <item>CSC6710 Database Systems</item>
+        <item>CSC6850 Machine Learning</item>
+    </string-array>
+    <string-array name="section_array">
+        <item>ex 1</item>
+        <item>ex 2</item>
+    </string-array>
+</resources>

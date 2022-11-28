@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/next_btn3"
+        android:layout_width="112dp"
+        android:layout_height="57dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/survey_question"
+        android:layout_width="306dp"
+        android:layout_height="70dp"
+        android:text="@string/overall_pace"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="277dp"
+        android:layout_height="241dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.562">
+
+        <RadioButton
+            android:id="@+id/radio_btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/very_slow" />
+
+        <RadioButton
+            android:id="@+id/radio_btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/slow" />
+
+        <RadioButton
+            android:id="@+id/radio_btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/normal" />
+
+        <RadioButton
+            android:id="@+id/radio_btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fast" />
+
+        <RadioButton
+            android:id="@+id/radio_btn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/very_fast" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
